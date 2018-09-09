@@ -6,7 +6,7 @@ import {
 }                           from 'react-router-dom';
 
 import HomePage             from './containers/home_page';
-import Header               from './layouts/header'
+import Header               from './layouts/header';
 
 export default (
   <Router>

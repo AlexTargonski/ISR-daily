@@ -33,7 +33,7 @@ class Header extends Component {
       collapse: false,
       isWideEnough: false,
     };
-  this.onClick = this.onClick.bind(this);
+    this.onClick = this.onClick.bind(this);
   }
 
   onClick(){
@@ -55,10 +55,7 @@ class Header extends Component {
               <NavLink to="#">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="#">Features</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="#">Pricing</NavLink>
+              <NavLink to="#">Help</NavLink>
             </NavItem>
           </NavbarNav>
           <NavbarNav right>
