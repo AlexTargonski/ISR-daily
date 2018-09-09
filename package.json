@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "mdbreact": "^4.7.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
@@ -19,6 +21,7 @@
     "lint": "NODE_ENV=development eslint src"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^5.5.0",
     "eslint-plugin-react": "^7.11.1"
   }
