@@ -8,7 +8,9 @@ export default ({ children }) => (
     <header>
       <div className="logo" />
     </header>
+    <div className="container">
       {children}
+    </div>
     <footer>
     </footer>
     <style global jsx>{`
@@ -32,6 +34,10 @@ export default ({ children }) => (
         height          : 89px;
         margin-top      : 3px;
         width           : 222px;
+      }
+
+      .container {
+        padding : 0 15%;
       }
     `}
     </style>
