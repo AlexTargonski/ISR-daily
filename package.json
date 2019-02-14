@@ -1,28 +1,27 @@
 {
-  "name": "isr-daily",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
-    "mdbreact": "^4.7.0",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
-    "styled-components": "^3.4.5"
-  },
+  "name": "ISR-daily",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "lint": "NODE_ENV=development eslint src"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^5.5.0",
-    "eslint-plugin-react": "^7.11.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTargonski/ISR-daily.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTargonski/ISR-daily/issues"
+  },
+  "homepage": "https://github.com/AlexTargonski/ISR-daily#readme",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   }
 }
