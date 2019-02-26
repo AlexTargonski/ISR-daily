@@ -16,6 +16,7 @@ const HomePage = () => (
     {NEWS.map(n =>
       <NewsCard
         key={n.id}
+        id={n.id}
         title={n.title}
         photo={n.photo}
         desc={n.desc}

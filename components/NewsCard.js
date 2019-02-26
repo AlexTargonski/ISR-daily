@@ -1,7 +1,9 @@
 import React     from 'react';
 import PropTypes from 'prop-types';
+import Link      from 'next/link';
 
 const NewsCard = ({
+  id,
   title,
   photo,
   desc,
@@ -14,6 +16,9 @@ const NewsCard = ({
         <h1>{title}</h1>
         <p>{desc}</p>
         <p>{date}</p>
+        <Link href={`/post?id=${id}`}>
+          <a>details</a>
+        </Link>
       </div>
     </div>
     <style jsx>{`
