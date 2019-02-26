@@ -16,7 +16,7 @@ const NewsCard = ({
         <h1>{title}</h1>
         <p>{desc}</p>
         <p>{date}</p>
-        <Link href={`/post?id=${id}`}>
+        <Link as={`/${title.replace(/ /g,"-")}`} href={`/post?id=${id}`}>
           <a>details</a>
         </Link>
       </div>
