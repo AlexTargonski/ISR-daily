@@ -3,12 +3,13 @@ import { NEWS }       from '../API';
 import { withRouter } from "next/router";
 
 import Layout         from '../components/Layout';
+import PostDetails    from '../components/PostDetails';
 
 const Post = ({ router }) => (
   <Layout>
-    {
-      console.log(router.query.id)
-    }
+    <PostDetails
+      post={NEWS.find((element) => element.id === +router.query.id)}
+    />
   </Layout>
 )
 
